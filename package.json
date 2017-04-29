@@ -1,0 +1,31 @@
+{
+  "name": "node-path",
+  "version": "1.0.0",
+  "description": "Gets you the root of your source file directory easily and better than rootpath.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfaf/node-path.git"
+  },
+  "keywords": [
+    "node-path",
+    "path",
+    "rootpath",
+    "relative",
+    "path",
+    "absolute",
+    "path"
+  ],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitfaf/node-path/issues"
+  },
+  "homepage": "https://github.com/gitfaf/node-path#readme"
+}
