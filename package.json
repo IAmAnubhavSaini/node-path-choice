@@ -1,6 +1,6 @@
 {
   "name": "node-path-choice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gets you the root of your source file directory easily and better than rootpath.",
   "main": "index.js",
   "directories": {
