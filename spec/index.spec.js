@@ -27,21 +27,19 @@ describe('updated path', () => {
       process.env.NODE_PATH = '';
     });
     it('has updated process.env.NODE_PATH', () => {
-      nodePath.blatant(pathLib.dirname(__filename)); // should set **/node-path-choice/spec:
-      let contains = process.env.NODE_PATH.indexOf('node-path-choice/spec') > -1;
-      console.log(process.env.NODE_PATH);
+      nodePath.blatant(pathLib.dirname(__filename)); // should set **/repo-name/spec:
+      let contains = process.env.NODE_PATH.indexOf('/spec') > -1;
       expect(contains).toBe(true);
     });
 
     it('duplicate calls don\'t update path', () => {
-      nodePath.blatant(pathLib.dirname(__filename)); // should set **/node-path-choice/spec:
-      let contains = process.env.NODE_PATH.indexOf('node-path-choice/spec') > -1;
+      nodePath.blatant(pathLib.dirname(__filename)); // should set **/repo-name/spec:
+      let contains = process.env.NODE_PATH.indexOf('/spec') > -1;
       expect(contains).toBe(true);
       nodePath.blatant(pathLib.dirname(__filename));
       nodePath.blatant(pathLib.dirname(__filename));
-      let firstIndex = process.env.NODE_PATH.indexOf('node-path-choice/spec');
-      let lastIndex = process.env.NODE_PATH.lastIndexOf('node-path-choice/spec');
-      console.log(process.env.NODE_PATH);
+      let firstIndex = process.env.NODE_PATH.indexOf('/spec');
+      let lastIndex = process.env.NODE_PATH.lastIndexOf('/spec');
       expect(firstIndex === lastIndex).toBe(true);
     });
   });
