@@ -1,10 +1,11 @@
 {
   "name": "node-path-choice",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Gets you the root of your source file directory easily and better than rootpath.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/gitfaf/node-path-choice/issues"
   },
-  "homepage": "https://github.com/gitfaf/node-path-choice#readme"
+  "homepage": "https://github.com/gitfaf/node-path-choice#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "jasmine": "^2.8.0"
+  }
 }
