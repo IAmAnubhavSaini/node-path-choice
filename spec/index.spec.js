@@ -1,6 +1,8 @@
 let nodePath = require('../index');
 let pathLib = require('path');
 
+/* global describe it expect beforeEach */
+
 describe('updated path', () => {
   describe('.relative()', () => {
     it('has updated process.env.NODE_PATH', () => {
