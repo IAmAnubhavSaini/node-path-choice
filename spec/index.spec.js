@@ -29,6 +29,7 @@ describe('updated path', () => {
     it('has updated process.env.NODE_PATH', () => {
       nodePath.blatant(pathLib.dirname(__filename)); // should set **/node-path-choice/spec:
       let contains = process.env.NODE_PATH.indexOf('node-path-choice/spec') > -1;
+      console.log(process.env.NODE_PATH);
       expect(contains).toBe(true);
     });
 
@@ -40,6 +41,7 @@ describe('updated path', () => {
       nodePath.blatant(pathLib.dirname(__filename));
       let firstIndex = process.env.NODE_PATH.indexOf('node-path-choice/spec');
       let lastIndex = process.env.NODE_PATH.lastIndexOf('node-path-choice/spec');
+      console.log(process.env.NODE_PATH);
       expect(firstIndex === lastIndex).toBe(true);
     });
   });
