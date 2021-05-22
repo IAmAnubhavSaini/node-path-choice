@@ -2,7 +2,7 @@
   "name": "node-path-choice",
   "version": "2.0.0",
   "description": "Gets you the root of your source file directory easily and better than rootpath.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jasmine",
     "lint": "eslint **/*.js"
