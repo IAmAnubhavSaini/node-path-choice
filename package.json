@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/gitfaf/node-path-choice#readme",
   "devDependencies": {
-    "jasmine": "^3.7.0"
+    "@types/jasmine": "^3.7.4",
+    "@types/node": "^15.6.0",
+    "jasmine": "^3.7.0",
+    "typescript": "^4.2.4"
   }
 }
