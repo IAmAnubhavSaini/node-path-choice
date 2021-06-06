@@ -1,6 +1,6 @@
 {
   "name": "node-path-choice",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Gets you the root of your source file directory easily and better than rootpath.",
   "main": "src/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "absolute",
     "path"
   ],
-  "author": "Git Faf <git.faf@gmail.com>",
+  "author": "Anubhav",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gitfaf/node-path-choice/issues"
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/gitfaf/node-path-choice#readme",
   "devDependencies": {
     "@types/jasmine": "^3.7.4",
-    "@types/node": "^15.6.0",
+    "@types/node": "^15.12.1",
     "jasmine": "^3.7.0",
     "typescript": "^4.2.4"
   }
